@@ -1,0 +1,30 @@
+#!/bin/bash
+clear
+nombre="f@br1x"
+echo -e "\e[1;36m  Extrakeys Termux\e[0;m"
+sleep 2
+echo -e "   Created by: \e[1;36mf@br1x\e[0;m"
+sleep 1
+echo -n -e '\e[0;32mFecha : ';date
+sleep 1
+
+echo
+echo -e "\e[0;m"
+
+echo -e '(+) \e[1;32mcreando ruta/ carpeta\e[0;m'
+sleep 5
+mkdir -p /data/data/com.termux/files/home/.termux
+echo
+
+echo -e '(+) \e[1;36mConfigurando termux.properties file\e[0;m'
+sleep 5
+cp -f termux.properties /data/data/com.termux/files/home/.termux
+echo
+
+echo -e '(+) \e[1;33mReloading keys settings\e[0m'
+sleep 5
+termux-reload-settings
+clear
+echo -e "Created by: \e[1;36m"$nombre
+sleep 1
+exit
