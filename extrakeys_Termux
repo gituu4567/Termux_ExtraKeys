@@ -13,7 +13,7 @@ echo -e "\e[0;m"
 
 echo -e '(+) \e[1;32mcreando ruta/ carpeta\e[0;m'
 sleep 5
-mkdir -p $HOME/.termux
+mkdir -p ~/.termux
 mkdir -p /data/data/com.termux/files/home/.termux
 echo
 
