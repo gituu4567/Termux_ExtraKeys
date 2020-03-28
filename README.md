@@ -11,7 +11,7 @@ apt update && apt upgrade -y
 apt install git -y
 
 
-git clone https://github.com/Fabrix07Hack/Termux_ExtraKeys.git
+git clone https://github.com/Fabr1x/Termux_ExtraKeys.git
 
 
 cd Termux_ExtraKeys
